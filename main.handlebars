@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+</head>
+
+<body>
+  <style>
+    .table td {
+      padding-left: 20px;
+    }
+  </style>
+  {{#if general}}
+  <h2 style="color:#333333" {{{subject}}}> </h2>
+  <table class="table table-bordered" style="float: left;">
+    <h3 style="color:#333333; border-bottom: 2px solid #191717;">{{{subject}}}</h3>
+    <tbody style="float: left;text-align: left">
+      <tr>
+        <th scope="col">Name:</th>
+        <td scope="col">{{{name}}}</th>
+      </tr>
+      <tr>
+        <th scope="col">Phone Number:</th>
+        <td scope="col">{{{mobile}}}</th>
+      </tr>
+      <tr>
+        <th scope="col">Email Address:</th>
+        <td scope="col">{{{email}}}</th>
+      </tr>
+      <tr>
+        <th scope="col">Location:</th>
+        <td scope="col">{{{location}}}</th>
+      </tr>
+      <tr>
+        <th scope="col">Subject:</th>
+        <td scope="col">{{{subject}}}</th>
+      </tr>
+    </tbody>
+  </table>
+  {{/if}}
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+:root{
+    --topnav-header:#063684 !important;
+    --footer:transparent;
+
+    --messageSection1:linear-gradient(to right, #063684 0%, rgba(249, 155, 40, 1) 100%);
+    --messageSection:#D8F7FE;
+    --contents:#063684;
+
+    --buttons-background:#063684;
+     --buttons:#063684;
+    --buttons-color:#FEFEFE;
+
+    --homeslider-background:#f8f8f8;
+    --homeslider-contents-background:rgba(255, 255, 255, 0.5);
+
+    --userReply:#fffefe;
+    --userReply-color:#272727;
+
+    --Sent-li:#2465ce;
+    --Sent-li-color:#f8f8f8;
+
+    --white:#FEFEFE;
+    --text-color:#272727;
+
+    --buttonslider-li:#f58f25;
+    --homesliderbanner-btn:#daedeb;
+
+    --ratting-color:#f68c23;
+    --callbackActionButton:#aaa;
+    --outerDiv-mainbtn:#063684;
+  }
+

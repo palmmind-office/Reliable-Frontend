@@ -1,0 +1,80 @@
+
+    {
+        "type": "multiple-title",
+        "title": [
+          "I'm still learning so keep your questions simple so i can understand 🙂 <span>https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15</span>",
+          {
+            "title": [
+              "Please fill in the form below. <span>https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15</span>"
+            ]
+          },
+          {
+            "title": [
+              "Please fill in the form below. test"
+            ],
+            "listItem":[
+              {
+                "title":"list with payload",
+                "type":"payload",
+                "payload":"list1"
+              },
+              {
+                "title":"list 2 cata with link",
+                "type":"link",
+                "link":"https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15"
+              },
+              {
+                "title":"list 2 cata with none"
+              }
+            ]
+          }
+        ],
+      "formModule":{
+            "type": "formLead",
+            "subtitle":"Design a bot in minutes so it can start acquiring leads for you and automate next steps. Bots work for you all day delivering qualified leads and speeding up customer resolutions.",
+            "headertitle":"For More Query",
+            "data": [
+              {
+                "label": "your name",
+                "placeholder": "Enter your name",
+                "id": "firstName",
+                "type": "text",
+                "validation": {
+                  "required": true
+                }
+              },
+              {
+                "label": "Email Address",
+                "placeholder": "Enter email address",
+                "id": "emailAddress",
+                "type": "email",
+                "validation": {
+                  "required": true,
+                  "email": true
+                }
+              },
+              {
+                "label": "Mobile Number",
+                "placeholder": "Enter mobile number",
+                "id": "mobileNumber",
+                "type": "number",
+                "validation": {
+                  "required": true,
+                  "mobile": true
+                }
+              }
+            ],
+            "buttons": {
+              "data": [
+                {
+                  "text": "Submit",
+                  "type": "submit"
+                },
+                {
+                  "text": "Cancel",
+                  "type": "cancel"
+                }
+              ]
+            }
+          }
+      }

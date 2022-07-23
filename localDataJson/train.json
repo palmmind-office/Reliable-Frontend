@@ -1,0 +1,33 @@
+[{
+  "payseq": 1,
+  "TranDate": "2018-04-10T00:00:00",
+  "GLAccNumb": "2020700005",
+  "TranAmount": -32490.0000,
+  "a": [{
+    "AccTitle": "Janata Bank\/Baneshwor"
+  }]
+}, {
+  "payseq": 1,
+  "TranDate": "2018-04-10T00:00:00",
+  "GLAccNumb": "4.4",
+  "TranAmount": 32490.0000,
+  "a": [{
+    "AccTitle": "First Premium"
+  }]
+}, {
+  "payseq": 2,
+  "TranDate": "2019-05-10T00:00:00",
+  "GLAccNumb": "2020700008",
+  "TranAmount": -32490.0000,
+  "a": [{
+    "AccTitle": "Century Bank Putalisadak"
+  }]
+}, {
+  "payseq": 2,
+  "TranDate": "2019-05-10T00:00:00",
+  "GLAccNumb": "4.5",
+  "TranAmount": 32490.0000,
+  "a": [{
+    "AccTitle": "Renewal Premium"
+  }]
+}]

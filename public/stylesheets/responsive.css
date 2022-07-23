@@ -1,0 +1,326 @@
+@media only screen and (max-device-width : 2560px) {
+  .detailcontainer .header .close {
+    margin:--7px 5px 0 0;
+  }
+}
+
+@media only screen and (max-device-width : 1440px) {
+  .detailcontainer {
+    margin: 0 -5px 0 0;
+  }
+  .detailcontainer .header .close {
+    margin:-4px 5px 0 0;
+  }
+}
+
+@media only screen and (max-device-width : 1024px) {
+  .detailcontainer {
+    margin-right: 115px;
+  }
+  .detailcontainer .header .close {
+    margin:-5px 5px 0 0;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  #context-container12 .topslider .btn-group {
+    position: absolute;
+    top: 290% !important;
+    right: 2px;
+    z-index: 12;
+  }
+
+  #context-container12 .first-owl-sliderbtn {
+    top: 134px;
+  }
+
+  #context-container12 .topslider hr {
+    top: 139px;
+  }
+
+  #detailDrawer {
+    margin: auto;
+    display: block;
+    /* margin-left: 10px !important; */
+  }
+
+  #outer-wrapper {
+    width: 366px;
+    /* width: 100%; */
+  }
+
+  .detailPolicyDrawer {
+    width: 100% !important;
+    position: fixed;
+    background: #ffffff;
+    left: 0;
+    height: 100% !important;
+    /* overflow-y: auto; */
+    overflow-x: auto;
+    border: 10px solid white;
+  }
+
+  .detailcontainer {
+    width: 319px;
+    margin-right: 155px;
+  }
+
+  .detailcontainer .header .title {
+    font-size: 14px;
+  }
+
+  .detailcontainer .bodysec h4 {
+    font-size: 11px;
+  }
+
+  .detailcontainer .header .close {
+    float: right;
+    font-size:16px;
+    padding: 6px 10px 0px 0px;
+    cursor: pointer;
+    position: absolute;
+    right: 7px;
+    width: 37px !important;
+  }
+
+  .detailcontainer .popDetailsButton button {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-device-width : 450px) {
+  #frame .content .contact-profile p span {
+    font-size: 18px !important;
+  }
+
+  .detailcontainer {
+    margin: 61px -124px 0 0;
+    width: 96%;
+  }
+
+  .detailcontainer .popDetailsButton {
+    margin-bottom: 60px;
+  }
+
+  .detailcontainer .popDetailsButton button {
+    font-size: 13px;
+  }
+
+  .detailcontainer .header .title {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 23px 0px 0px;
+  }
+
+  .detailcontainer .header .close {
+    margin:-3px 5px 0 0;
+  }
+
+  #detailDrawer .owl-nav {
+    top: 22%;
+    right: 13px;
+  }
+
+  .detailPolicyDrawer i {
+    padding-right: 12px;
+  }
+
+  .detailPolicyDrawer {
+    width: 387px;
+    position: fixed;
+    background: #ffffff;
+    left: 0;
+    height: 600px;
+    /* overflow-y: auto; */
+    overflow-x: auto;
+  }
+
+  .select2-container {
+    width: 210px !important;
+    margin-left: 5px;
+  }
+
+  .select2-dropdown {
+    width: 210px !important;
+  }
+
+  .detailPolicyDrawer {
+    width: 387px;
+    position: fixed;
+    background: #ffffff;
+    /* left: 21px; */
+    height: 600px;
+    /* overflow-y: auto; */
+    overflow-x: auto;
+  }
+
+  #outer-wrapper {
+    /* width: 257px; */
+    width: 100% !important;
+  }
+
+}
+
+@media only screen and (max-device-width : 414px) {
+  #detailDrawer .slide-container p {
+    padding: 8px 25px 10px 10px;
+  }
+
+  #context-container12 .topslider .btn-group {
+    top: 252% !important;
+  }
+
+  .detailPolicyDrawer {
+    width: 387px;
+    position: fixed;
+    background: #ffffff;
+    left: 0;
+    height: 600px;
+    /* width: 100%; */
+    overflow-x: auto;
+  }
+
+  #menu-container {
+    height: 92%;
+  }
+
+  .homeSliderBanner {
+    height: 100vh !important;
+  }
+
+  #buttonUpSlider {
+    height: 53vh !important;
+  }
+
+  /* #frame .content{
+        width: 91%;
+      } */
+}
+
+@media only screen and (max-device-width : 385px) {
+  #generalslider {
+    margin-left: 0;
+  }
+
+  #dw_val {
+    font-size: 18px !important;
+    margin-top: -7px;
+  }
+
+  .dw.ios .dwbw.dwb-s .fa-check {
+    font-size: 18px !important;
+  }
+
+  .dw.ios .dwb-c .fa-times {
+    font-size: 18px !important;
+  }
+
+  #context-container12 .topslider .btn-group {
+    top: 219% !important;
+  }
+
+  #frame .content .contact-profile p span {
+    font-size: 13px !important;
+  }
+
+  .detailcontainer {
+    /* height: 100%;*/
+    width: 100%;
+    margin: 61px -109px 0 0;
+  }
+
+  .detailPolicyDrawer {
+    width: 387px;
+    /* width: 100%; */
+    position: fixed;
+    background: #ffffff;
+    left: 0;
+    height: 600px;
+    /* overflow-y: auto; */
+    overflow-x: auto;
+  }
+
+  .select2-container {
+    width: 183px !important;
+    margin-left: 5px;
+  }
+
+  .select2-dropdown {
+    width: 183px !important;
+  }
+
+  #outer-wrapper {
+    /* width: 327px !important; */
+    width: 100% !important;
+  }
+
+  #context-container #outerTitleImg span {
+    font-size: 1.2rem;
+  }
+
+  #context-container #outerTitle {
+    font-size: 14px;
+  }
+
+  #context-container .context-title p {
+    font-size: 18px;
+  }
+
+  #context-container .call-out-container .call-out p.title {
+    font-size: 12px;
+  }
+
+  .welcomeBanner .welcomebuttomSide #welcomebtn {
+    font-size: 12px;
+    padding: 1px 12px;
+  }
+
+  #context-container .call-out-container .call-out p.subtitle {
+    font-size: 10px;
+  }
+
+  .welcomeBanner .welcomebuttomSide .card p {
+    font-size: 12px;
+  }
+
+  .welcomeBanner .welcometopSide p {
+    font-size: 12px;
+  }
+
+  .contact-profile button.pushNotification {
+    margin-right: 7px;
+  }
+
+  #context-container .context-title span {
+    font-size: 1.2rem;
+  }
+
+  .welcomeBanner .welcometopSide .bannertopsec .col-md-8 {
+    margin-top: -5px;
+  }
+
+  .welcomeBanner h5.news {
+    font-size: 7px;
+    /* padding: 12px; */
+    padding: 14px 0px 0px 30px;
+  }
+
+  #quick_reply a {
+    font-size: 11px;
+  }
+
+  #location-card p {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-device-width : 320px) {
+  .detailcontainer {
+    /* height: 100% !important;
+        width: 96% !important; */
+    /* right: 0 !important; */
+    margin: 61px -91px 0 0;
+  }
+}
